@@ -1,0 +1,298 @@
+body {
+  font-family: sans-serif;
+  background-image: url('img/mainbg.jpg') ;
+  
+  background-repeat: no-repeat;
+  background-size : 100% 100%;
+}
+
+.file-upload {
+   
+    width:53%;    
+    padding:3% 3%;
+    border-radius : 10px;
+    border : solid 5px black;
+    background-image : url('img/wood.jpg');
+}
+
+.file-upload-btn {
+  width: 100%;
+  margin: 0;
+  color: #fff;
+  background: #1FB264;
+  border: none;
+  padding: 10px;
+  border-radius: 4px;
+  border-bottom: 4px solid #15824B;
+  transition: all .2s ease;
+  outline: none;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.file-upload-btn:hover {
+  background: #1AA059;
+  color: #ffffff;
+  transition: all .2s ease;
+  cursor: pointer;
+}
+
+.file-upload-btn:active {
+  border: 0;
+  transition: all .2s ease;
+}
+
+.file-upload-content {
+  display: none;
+  text-align: center;
+  background-color: #f9e9bb;
+}
+
+.file-upload-input {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  outline: none;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.image-upload-wrap {
+  
+ 
+  position: relative;
+    width:100%;
+    
+    margin:0 auto;
+    object-fit : contain;
+    border-radius : 10px;
+    border : dashed 1.5px #35465d;
+    background-color: #f9e9bb;
+}
+
+.image-dropping,
+.image-upload-wrap:hover {
+  background-color: #b5b5b5;
+  border: 1.5px dashed #ffffff;
+}
+
+.image-title-wrap {
+  padding: 0 15px 15px 15px;
+  color: #222;
+}
+
+.drag-text {
+  text-align: center;
+    font-family: 'Jua', sans-serif;
+}
+
+.drag-text h3 {
+    width:50%
+        margin:0 auto;
+  font-weight: 100;
+  text-transform: uppercase;
+  color: #15824B;
+ 
+    font-family: 'Jua', sans-serif;
+    font-size : 1.5rem;
+    line-height : 1.53;
+    text-align : center;
+    color : #35465d;
+}
+
+.file-upload-image {
+  max-height: 200px;
+  max-width: 100%;
+  margin: auto;
+  padding: 20px;
+}
+
+.remove-image {
+  width: 40%;
+  margin: 0;
+  color: #fff;
+  background: #cd6b1d;
+  border: none;
+  padding: 10px;
+  border-radius: 4px;
+  border-bottom: 4px solid #b02818;
+  transition: all .2s ease;
+  outline: none;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.remove-image:hover {
+  background: #c13b2a;
+  color: #ffffff;
+  transition: all .2s ease;
+  cursor: pointer;
+}
+
+.remove-image:active {
+  border: 0;
+  transition: all .2s ease;
+}
+.nav-distance{
+    padding : 2% 5%;
+}
+.navbar-light .navbar-brand {
+    font-family: 'Yeon Sung', cursive;
+    line-height:1.68;
+    text-align : center;
+    font-size : 2.5rem;
+    color : black;
+    
+}
+.navbar-light .navbar-toggler {
+    border-color : #ffffff;
+}
+.section {
+    margin-top:100px;
+  
+    
+
+}
+
+.title {
+    font-family: 'Yeon Sung', cursive;
+    font-size : 4rem;
+    line-height : 1.67;
+    text-align : center;
+    color : black;
+}
+.subtitle{
+    font-family: 'Yeon Sung', cursive;
+    font-size : 2rem;
+    line-height : 1.53;
+    text-align : center;
+    color : black;
+}
+
+/* On screens that are 600px or less, set the background color to olive */
+@media screen and (max-width: 600px) {
+  html {
+    font-size : 10px;
+  }
+    .navbar-brand {
+        font-size : 2.5rem;
+        
+    }
+}
+.youtube-link {
+    font-family : NanumSquareR;
+    font-size : 1.5rem;
+    line-height : 1.71
+    text-align : center;
+    color : #f73737;
+    text-decoration : underline;   
+}
+.youtube-link:hover {
+    font-family : NanumSquareR;
+    font-size : 1.5rem;
+    line-height : 1.71
+    text-align : center;
+    color : #f73737;
+    text-decoration : underline;   
+}
+.youtube-icon {
+    width:8%
+    
+}
+.navbar {
+    background-image:url('img/inboxbg.jpg');
+    background-size : 100%;
+}
+.result-Message {
+    font-family: 'Yeon Sung', cursive;
+    font-size : 2.5rem;
+    color:black;
+    
+}
+.plus{ 
+     font-family: 'Yeon Sung', cursive;
+    font-size : 1.5rem;
+    color:black;
+    text-align:center;
+    
+}
+
+.image-title{
+     font-family: 'Yeon Sung', cursive;
+    font-size : 2rem;
+    
+}
+.text-center {
+     font-family: 'Yeon Sung', cursive;
+    font-size : 2rem;
+    
+}
+
+.container{
+     
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+input#gender {
+    display: none;
+}
+label {
+    cursor: pointer;
+    display: inline-block;
+    width: 40px;
+    height: 20px;
+    box-shadow: 0 0 0 5px gray inset;
+    border-radius: 30px;
+    position: relative;
+}
+.knob {
+    position: absolute;
+    width: 20px;
+    top: 0;
+    left: 0;
+    height: 20px;
+    border-radius: 50%;
+    box-shadow: 0 0 0 5px black inset;
+    background-color: white;
+    transition: 0.3s;
+}
+
+input:checked + label > .knob {
+    box-shadow: 0 0 0 5px black inset;
+    background-color: white;
+    transform: translateX(20px);
+}
+.genderselect {
+    font-size : 2rem;
+    font-family: 'Yeon Sung', cursive;
+     text-align:center;
+    margin-bottom: 1rem;
+}
+.justify-content-center {
+    -ms-flex-pack: center!important;
+    justify-content: center!important;
+}
+.d-flex {
+    display: -ms-flexbox!important;
+    display: flex!important;
+}
+.notice-message {
+    font-size:1.3rem;
+    font-family: 'Jua', sans-serif;
+    text-align: center;padding : 1rem;
+}
+.thankyouJo {
+    color:red;
+    text-decoration : underline;
+}
+.thankyouJo:hover {
+    color:red;
+    text-decoration : underline;
+}
+
+
