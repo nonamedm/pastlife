@@ -211,6 +211,12 @@ body {
     color:black;
     
 }
+.result-Comment {
+    font-family: 'Jua', sans-serif;
+    font-size : 1.5rem;
+    color:rgb(0,0,0,0.6);
+    
+}
 .plus{ 
      font-family: 'Yeon Sung', cursive;
     font-size : 1.5rem;
@@ -293,6 +299,53 @@ input:checked + label > .knob {
 .thankyouJo:hover {
     color:red;
     text-decoration : underline;
+}
+div#label-container div{
+     
+} 
+#divv0{
+    background-color : rgb(255,0,0,0.2);
+    border-radius: 20px;
+} 
+#divv1{
+    background-color : rgb(0,0,255,0.2);
+    border-radius: 20px;
+} 
+#divv2{
+   background-color : rgb(255,255,0,0.2);
+    border-radius: 20px;
+} 
+#divv3{
+   background-color : rgb(0,255,0,0.2);
+    border-radius: 20px;
+} 
+#divv4{
+    background-color : rgb(0,0,0,0.2);
+    border-radius: 20px;
+} 
+
+.result-job {
+    display: flow-root;
+    padding : 5px;
+    font-family: 'Jua', sans-serif;
+    font-size : 1.2rem;
+    text-align: center;
+    
+}
+.result-percent {
+   
+    
+    font-family: 'Jua', sans-serif;
+    font-size : 1rem;
+    text-align: center;
+    
+}
+#label-container {
+    
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
 }
 
 
