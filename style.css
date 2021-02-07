@@ -330,6 +330,7 @@ div#label-container div{
     font-family: 'Jua', sans-serif;
     font-size : 1.2rem;
     text-align: center;
+  min-width : 40px;
     
 }
 .result-percent {
