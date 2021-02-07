@@ -325,7 +325,7 @@ div#label-container div{
 } 
 
 .result-job {
-    display: flow-root;
+    display: table-cell;
     padding : 5px;
     font-family: 'Jua', sans-serif;
     font-size : 1.2rem;
