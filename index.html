@@ -321,20 +321,20 @@
                 if (document.getElementById('gender').checked) {
                     switch (prediction[0].className) {
                         case '선비':
-                            resultMessage = '당신은 전생에 선비 였습니다';
-                            resultComment = '설명을 주저리 주저리';
+                            resultMessage = '잘생긴 옆집 오빠! 훈남 선비!';
+                            resultComment = '품행이 단정하고 박학다식 하며 우수한 용모까지 ?! 도포자락 휘날리며 시조 한가락 읊으면 동네 여인들의 마음을 쓸어담는 당신은 전생에 선비 였습니다 !';
                             break;
                         case '어의':
-                            resultMessage = '당신은 전생에 어의 였습니다';
-                            resultComment = '설명을 주저리 주저리';
+                            resultMessage = '죽은 사람도 살려내는 명의! 어의영감!';
+                            resultComment = '외과 내과 소아과 심지어 정신과 상담까지 못 보는 과가 없는 만능 의사선생님 ! 중국 황실에서 스카웃 제의를 받을 정도로 실력이 뛰어난 당신은 전생에 어의 였습니다 !';
                             break;
                         case '백정':
-                            resultMessage = '당신은 전생에 백정 이었습니다';
-                            resultComment = '설명을 주저리 주저리';
+                            resultMessage = '횡성 한우 정육점 사장님 백정!';
+                            resultComment = '뛰어난 피지컬을 자랑하는 북방 민족의 후예이면서, 마을 잔치 때 A++ 한우를 무한리필로 제공하여 조선팔도에 맛집으로 소문난 정육점을 운영하는 당신의 전생은 백정 이었습니다 !';
                             break;
                         case '영의정':
-                            resultMessage = '당신은 전생에 영의정 이었습니다';
-                            resultComment = '설명을 주저리 주저리';
+                            resultMessage = '정 1품의 만렙 공무원! 영의정!';
+                            resultComment = '문무백관을 총괄하는 왕가 외에 공무원으로 도달할 수 있는 최고 레벨 ! 신입사원이 들어오면 Latte 얘기로 한시간을 넘게 떠들어 대는 당신의 전생은 영의정 이었습니다 !';
                             break;
                         case '승려':
                             resultMessage = '당신은 전생에 승려 였습니다';
@@ -435,10 +435,6 @@
                             resultMessage = '당신은 전생에 노비 였습니다';
                             resultComment = '설명을 주저리 주저리';
                             break;
-                        case '사또':
-                            resultMessage = '당신은 전생에 사또 였습니다';
-                            resultComment = '설명을 주저리 주저리';
-                            break;
                         case '장군':
                             resultMessage = '당신은 전생에 장군 이었습니다';
                             resultComment = '설명을 주저리 주저리';
@@ -455,7 +451,7 @@
                 for (let i = 0; i < 5; i++) {
                     const classPrediction =
                         '<span class="result-job" style="width:' +
-                        (20+Math.round(prediction[i].probability.toFixed(2) * 100, 0))/4 +
+                        (Math.round(prediction[i].probability.toFixed(2) * 100, 0))/4 +
                         'vw;">' +
                         prediction[i].className +
                         '</span><span class="result-percent">' +
