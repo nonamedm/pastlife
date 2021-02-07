@@ -455,8 +455,8 @@
                 for (let i = 0; i < 5; i++) {
                     const classPrediction =
                         '<span class="result-job" style="width:' +
-                        (50+Math.round(prediction[i].probability.toFixed(2) * 100, 0)) +
-                        'vw;">' +
+                        (20+Math.round(prediction[i].probability.toFixed(2) * 100, 0)) +
+                        'px;">' +
                         prediction[i].className +
                         '</span><span class="result-percent">' +
                         Math.round(prediction[i].probability.toFixed(2) * 100, 0) +
