@@ -151,11 +151,13 @@ body {
 }
 .section {
     margin-top:100px;
-  
-    
-
+ }
+.kakao{
+    display:flex;
 }
-
+.coupangad {
+    text-align:center
+}
 .title {
     font-family: 'Yeon Sung', cursive;
     font-size : 4rem;
@@ -306,22 +308,27 @@ div#label-container div{
 #divv0{
     background-color : rgb(255,0,0,0.2);
     border-radius: 20px;
+    height:50%;
 } 
 #divv1{
     background-color : rgb(0,0,255,0.2);
     border-radius: 20px;
+    height:100%;
 } 
 #divv2{
    background-color : rgb(255,255,0,0.2);
     border-radius: 20px;
+    height:50%;
 } 
 #divv3{
    background-color : rgb(0,255,0,0.2);
     border-radius: 20px;
+    height:50%;
 } 
 #divv4{
     background-color : rgb(0,0,0,0.2);
     border-radius: 20px;
+    height:50%;
 } 
 
 .result-job {
@@ -330,7 +337,7 @@ div#label-container div{
     font-family: 'Jua', sans-serif;
     font-size : 1.2rem;
     text-align: center;
-  min-width : 40px;
+    min-width:40px;
     
 }
 .result-percent {
@@ -343,8 +350,8 @@ div#label-container div{
 }
 #label-container {
     
-    width: 100%;
-    display: flex;
+    width: 10%;
+    display: inline-flex;
     justify-content: center;
     
 }
